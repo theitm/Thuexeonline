@@ -1,0 +1,14 @@
+<?php
+  session_start();
+?>
+<?php
+  require_once("lib/connection.php");
+?>
+<?php
+  require('site.php');
+  load_top();
+  require('source/cssuser.php');
+  load_header();
+  require('source/botuser.php');
+  load_footer();
+?>

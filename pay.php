@@ -1,0 +1,15 @@
+<?php
+	session_start();
+	unset($_SESSION['lastpage']);
+?>
+<?php
+	require_once("lib/connection.php");
+?>
+<?php
+	require('site.php');
+	load_top();
+	require('source/csspay.php');
+	load_header();
+	require('source/botpay.php');
+	load_footer();
+?>

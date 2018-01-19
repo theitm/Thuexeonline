@@ -1,0 +1,11 @@
+<?php
+	session_start();
+?>
+<?php
+	require('site.php');
+	load_top();
+	require('source/cssplace.php');
+	load_header();
+	require('source/botplace.php');
+	load_footer();
+?>

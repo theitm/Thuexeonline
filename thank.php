@@ -1,0 +1,11 @@
+<?php
+	session_start();
+?>
+<?php
+	require('site.php');
+	load_top();
+	require('source/csscontact.php');
+	load_header();
+	require('source/botcthank.php');
+	load_footer();
+?>

@@ -1,0 +1,14 @@
+<?php
+	session_start();
+?>
+<?php
+	require_once("lib/connection.php");
+?>
+<?php
+	require('site.php');
+	load_top();
+	require('source/csspay.php');
+	load_header();
+	require('source/botpayfind.php');
+	load_footer();
+?>
